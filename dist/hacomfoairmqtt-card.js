@@ -555,7 +555,7 @@ found at http://polymer.github.io/PATENTS.txt
       left: 0;
       right: 0;
     }
-      .house-container .fan-speeds:focus-within mwc-button:not(:focus) {
+      .house-container .fan-speeds:focus-within mwc-button:not(:focus), .house-container .fan-speeds:focus-within mwc-button:not(:active) {
       opacity: 0.33
       }
     .icons {
@@ -612,7 +612,7 @@ found at http://polymer.github.io/PATENTS.txt
       opacity: .33;
     }
 
-    mwc-button[active], mwc-button:focus {
+    mwc-button[active], mwc-button:focus, mwc-button:active {
       opacity: 1;
     }
     
