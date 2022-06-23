@@ -555,7 +555,9 @@ found at http://polymer.github.io/PATENTS.txt
       left: 0;
       right: 0;
     }
-
+      .house-container .fan-speeds:focus-within mwc-button {
+      opacity: 0.33
+      }
     .icons {
       position: absolute;
       top: 50px;
