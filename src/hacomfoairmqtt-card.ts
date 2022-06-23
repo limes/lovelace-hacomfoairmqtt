@@ -162,7 +162,9 @@ export class HAComfoAirMQTTCard extends LitElement {
       left: 0;
       right: 0;
     }
-
+    .house-container .fan-speeds:focus-within mwc-button:not(:focus) {
+      opacity: 0.33
+      }
     .icons {
       position: absolute;
       top: 50px;
@@ -217,7 +219,7 @@ export class HAComfoAirMQTTCard extends LitElement {
       opacity: .33;
     }
 
-    mwc-button[active] {
+    mwc-button[active], mwc-button:focus {
       opacity: 1;
     }
   `;
