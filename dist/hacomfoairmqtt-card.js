@@ -593,7 +593,7 @@ found at http://polymer.github.io/PATENTS.txt
     .speeds {
       position: absolute;
       width: 140px;
-      left: 38%;
+      left: 45%;
       display: flex;
       flex-direction: column;
       justify-content: space-between;
