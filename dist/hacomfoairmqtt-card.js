@@ -578,7 +578,7 @@ found at http://polymer.github.io/PATENTS.txt
       position: absolute;
       width: 140px;
       left: 50%;
-      margin-left: -190px;
+      margin-left: -150px;
     }
 
     .temperatures-in {
