@@ -612,7 +612,11 @@ found at http://polymer.github.io/PATENTS.txt
       opacity: .33;
     }
 
-    mwc-button[active], mwc-button:focus {
+    mwc-button[active] {
       opacity: 1;
+    }
+    
+    mwc-button:focus {
+      opacity: 1 !important;
     }
   `,e([Q({attribute:!1})],He.prototype,"hass",void 0),e([K()],He.prototype,"config",void 0),He=e([J("hacomfoairmqtt-card")],He);export{He as HAComfoAirMQTTCard};
